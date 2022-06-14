@@ -8,7 +8,7 @@ import "fmt"
 type author struct {
 	name	 string
 	branch string
-	particles int
+	articles int
 	salary int
 }
 
@@ -18,7 +18,7 @@ func (a author) show() {
 
 	fmt.Println("Author's Name: ", a.name)
 	fmt.Println("Branch Name: ", a.branch)
-	fmt.Println("Published articles: ", a.particles)
+	fmt.Println("Published articles: ", a.articles)
 	fmt.Println("Salary: ", a.salary)
 }
 
@@ -30,7 +30,7 @@ func main() {
 	res := author{
 		name:	 "Sona",
 		branch: "CSE",
-		particles: 203,
+		articles: 203,
 		salary: 34000,
 	}
 

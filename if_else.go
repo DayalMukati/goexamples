@@ -14,7 +14,7 @@ func main() {
         fmt.Println("8 is odd")
     }
 
-    if num := 9; num < 0 {
+    if num := 14; num < 0 {
         fmt.Println(num, "is negative")
     } else if num < 10 {
         fmt.Println(num, "has 1 digit")
